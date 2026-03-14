@@ -1,0 +1,21 @@
+{
+  "name": "interface",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx --watch app/server.ts",
+    "test:dev": "npx jest --watch"
+  },
+  "keywords": [],
+  "author": "Anesu Kafesu",
+  "license": "MIT",
+  "description": "A social network for developers.",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
