@@ -4,7 +4,8 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx --watch app/server.ts",
-    "test:dev": "npx jest --watch"
+    "test:watch": "jest --watch",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Anesu Kafesu",
